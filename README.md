@@ -10,10 +10,10 @@ the script exits after updating the public key.
 *** the script does not monitor the witness servers.
 
 ### Requirements
-* a local (not on the witness Server) steemd, and a cli wallet running with
+* a local (not on the witness Server) steemd, and a cli wallet running with  
   ```
    $ ./cli_wallet -r127.0.0.1:8090 --rpc-http-allowip 127.0.0.1
-  ```
+  ```   
 * 2 witness servers, one primary and other secondary, using different pubkey/privkey pair.
 * curl installed (in Ubuntu: sudo apt-get install curl)
 
