@@ -7,7 +7,7 @@ if the script identifies that additional missed blocks threshold is reached, it 
 it provides automatic failover, without failback.
 the script exits after updating the public key.
 
-*** the script does not monitor if the witness servers.
+*** the script does not monitor the witness servers.
 
 ### Requirements
 * a local (not on the witness Server) steemd, and a cli wallet running with
