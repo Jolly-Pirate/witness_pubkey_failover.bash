@@ -5,9 +5,9 @@ as Witness it is recommended to run a hot backup server, synced and running with
 if the script identifies that additional missed blocks threshold is reached, it is updating the witness's pubkey to use the defined backup block signing pubkey (defined in the script).
 
 it provides automatic failover, without failback.
-the script exists after updating the public key.
+the script exits after updating the public key.
 
-*** the script does not monitor if the witness server, and the backup servers are up.
+*** the script does not monitor if the witness servers.
 
 ### Requirements
 * a local (not on the witness Server) steemd, and a cli wallet running with
