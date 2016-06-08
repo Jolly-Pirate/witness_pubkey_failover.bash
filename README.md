@@ -15,6 +15,7 @@ the script exits after updating the public key.
    $ ./cli_wallet -r127.0.0.1:8090 --rpc-http-allowip 127.0.0.1
   ```
 * 2 witness servers, one primary and other secondary, using different pubkey/privkey pair.
+* curl installed (in Ubuntu: sudo apt-get install curl)
 
 ### Configuration
 
