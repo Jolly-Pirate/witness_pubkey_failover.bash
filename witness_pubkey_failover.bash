@@ -36,7 +36,7 @@ while true ; do
     sleep 10s
     continue
   fi
-  echo "[`date`] misses: $init_misses"
+  echo "[`date`] misses: $misses"
   if [ $(($misses-$init_misses)) -ge $misses_failover_count ] ; then
      echo "[`date`] FAILOVER updating witness public signing key"
      curl -H "content-type: application/json" -X POST -d "{\"id\":0,\"method\":\"unlock\",\"params\":[\"$wallet_passphrase\"]}" $wallet
